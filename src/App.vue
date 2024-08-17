@@ -16,7 +16,7 @@ console.log(hello)
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Foldix" />
+  <HelloWorld msg="Foldix hello" />
 </template>
 
 <style scoped>
