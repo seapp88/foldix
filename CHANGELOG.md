@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/seapp88/foldix/compare/v1.0.1...v1.0.2) (2024-08-17)
+
+
+### Bug Fixes
+
+* build pipeline permissions ([698bcae](https://github.com/seapp88/foldix/commit/698bcae1d7e0acd906f64810d3dbbcdc3371c45a))
+
 ## [1.0.1](https://github.com/seapp88/foldix/compare/v1.0.0...v1.0.1) (2024-08-17)
 
 
