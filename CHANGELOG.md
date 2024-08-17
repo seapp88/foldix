@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/seapp88/foldix/compare/v1.0.8...v1.0.9) (2024-08-17)
+
+
+### Bug Fixes
+
+* test ci cd ([e7633b4](https://github.com/seapp88/foldix/commit/e7633b4ba3bc4426d2a265508a698dc57bd965a3))
+
 ## [1.0.8](https://github.com/seapp88/foldix/compare/v1.0.7...v1.0.8) (2024-08-17)
 
 
