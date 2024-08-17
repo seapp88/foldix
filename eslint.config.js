@@ -19,7 +19,7 @@ export default tseslint.config(
         sourceType: 'module',
       },
     },
-    ignores: ['*.js'],
+    ignores: ['*.js', './scripts/**/*.ts'],
   },
   eslintConfigPrettier
 )
