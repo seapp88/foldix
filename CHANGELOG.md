@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/seapp88/foldix/compare/v1.0.4...v1.0.5) (2024-08-17)
+
+
+### Bug Fixes
+
+* update build ([10602fe](https://github.com/seapp88/foldix/commit/10602fed30540b032f4d5ecf908974940723577d))
+
 ## [1.0.4](https://github.com/seapp88/foldix/compare/v1.0.3...v1.0.4) (2024-08-17)
 
 
