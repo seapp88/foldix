@@ -1,3 +1,13 @@
+## [1.0.6](https://github.com/seapp88/foldix/compare/v1.0.5...v1.0.6) (2024-08-17)
+
+
+### Bug Fixes
+
+* update build ([cdf50e1](https://github.com/seapp88/foldix/commit/cdf50e15e3e571041c0f2e1409f7147f39dc6d0d))
+* update build ([4225b0e](https://github.com/seapp88/foldix/commit/4225b0ec508ad00716e98e7b2d662028477c344d))
+* update build ([b20b0a4](https://github.com/seapp88/foldix/commit/b20b0a42f81657264a2f5a6fcef5b052e8a55d83))
+* update build ([b93bafc](https://github.com/seapp88/foldix/commit/b93bafcb1397ae9bbdbdd6c0f80e9c80a02953bb))
+
 ## [1.0.5](https://github.com/seapp88/foldix/compare/v1.0.4...v1.0.5) (2024-08-17)
 
 
