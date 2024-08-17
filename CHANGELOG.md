@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/seapp88/foldix/compare/v1.0.3...v1.0.4) (2024-08-17)
+
+
+### Bug Fixes
+
+* package json update version ([561f9d9](https://github.com/seapp88/foldix/commit/561f9d9969d6c39c86d79b43ffac7f253c666b05))
+
 ## [1.0.3](https://github.com/seapp88/foldix/compare/v1.0.2...v1.0.3) (2024-08-17)
 
 
