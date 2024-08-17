@@ -56,6 +56,29 @@ jobs:
     needs: build
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Get version from package.json
+        id: get_version
+        run: echo "VERSION=$(jq -r .version < package.json)" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ env.VERSION }}  # Используем версию из package.json как тег
+          release_name: "Release v${{ env.VERSION }}"
+          draft: false
+          prerelease: false
+
       - name: Download Linux artifact
         uses: actions/download-artifact@v3
         with:
@@ -73,17 +96,6 @@ jobs:
         with:
           name: foldix-windows-latest
           path: ./builds/windows
-
-      - name: Create GitHub Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.sha }}
-          release_name: "Release ${{ github.sha }}"
-          draft: false
-          prerelease: false
 
       - name: Upload Linux asset
         uses: actions/upload-release-asset@v1
