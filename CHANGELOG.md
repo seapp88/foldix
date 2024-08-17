@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/seapp88/foldix/compare/v1.0.2...v1.0.3) (2024-08-17)
+
+
+### Bug Fixes
+
+* upload release current tag ([32d7dcd](https://github.com/seapp88/foldix/commit/32d7dcdf27a9c02a8dfb07075bcfc662391dcc54))
+
 ## [1.0.2](https://github.com/seapp88/foldix/compare/v1.0.1...v1.0.2) (2024-08-17)
 
 
