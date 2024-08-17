@@ -8,7 +8,7 @@
     [
       "@semantic-release/exec",
       {
-        "publishCmd": "npm run sync-version && git add src-tauri/tauri.conf.json"
+        "prepareCmd": "npm run sync-version && git add src-tauri/tauri.conf.json"
       },
     ],
     [
