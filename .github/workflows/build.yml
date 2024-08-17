@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   publish-tauri:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     permissions:
       contents: write
     strategy:
