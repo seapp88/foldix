@@ -8,7 +8,8 @@
     [
       "@semantic-release/exec",
       {
-        "cmd": "npm run sync-version"
+        "cmd": "npm run sync-version",
+        "prepareCmd": "npm run sync-version"
       },
     ],
     [
