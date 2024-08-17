@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/seapp88/foldix/compare/v1.0.11...v1.0.12) (2024-08-17)
+
+
+### Bug Fixes
+
+* refactor pipelines ([33e4d38](https://github.com/seapp88/foldix/commit/33e4d38190fc7d98bb0c8e1b4a4687d3a48f4e4c))
+
 ## [1.0.11](https://github.com/seapp88/foldix/compare/v1.0.10...v1.0.11) (2024-08-17)
 
 
